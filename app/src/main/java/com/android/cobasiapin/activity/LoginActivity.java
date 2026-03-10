@@ -218,18 +218,20 @@ public class LoginActivity extends AppCompatActivity {
                     }
                 });
     }
-
     private boolean validateInput(String input, String password) {
+        // Validasi input
         if (TextUtils.isEmpty(input)) {
             etUsername.setError("Username, NIM, atau Email tidak boleh kosong");
             etUsername.requestFocus();
             return false;
         }
+        // Validasi password
         if (TextUtils.isEmpty(password)) {
             etPassword.setError("Password tidak boleh kosong");
             etPassword.requestFocus();
             return false;
         }
+        // Validasi password minimal 6 karakter
         if (password.length() < 6) {
             etPassword.setError("Password minimal 6 karakter");
             etPassword.requestFocus();

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_jadwal_item"
+    android:padding="12dp"
+    android:layout_marginBottom="8dp">
+
+    <!-- Waktu -->
+    <LinearLayout
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/bg_jadwal_time"
+        android:padding="8dp"
+        android:layout_marginEnd="12dp">
+
+        <TextView
+            android:id="@+id/tvJam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8:00"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#FF6B35"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/tvPagiSore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pagi"
+            android:textSize="10sp"
+            android:textColor="#FF6B35"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <!-- Info Jadwal -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:justificationMode="inter_word">
+
+        <TextView
+            android:id="@+id/tvNamaMK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Analisis Desain Sistem Informasi"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:maxLines="2"
+            android:layout_marginBottom="6dp" />
+
+        <!-- Kode MK dan Gedung -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:src="@drawable/ic_mk"
+                android:layout_marginEnd="4dp"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/tvKodeMK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AE 108"
+                android:textSize="11sp"
+                android:textColor="#757575"
+                android:layout_marginEnd="12dp" />
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:src="@drawable/ic_gedung"
+                android:layout_marginEnd="4dp"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/tvGedung"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gedung Lamacca"
+                android:textSize="11sp"
+                android:textColor="#757575" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

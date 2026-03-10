@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_beranda"
+        android:icon="@drawable/ic_beranda"
+        android:title="Beranda" />
+
+    <item
+        android:id="@+id/nav_kelola"
+        android:icon="@drawable/ic_kelola"
+        android:title="Kelola" />
+
+    <item
+        android:id="@+id/nav_ai"
+        android:icon="@drawable/ic_ai"
+        android:title="AI" />
+
+    <item
+        android:id="@+id/nav_chat"
+        android:icon="@drawable/ic_chat"
+        android:title="Chat" />
+
+    <item
+        android:id="@+id/nav_akun"
+        android:icon="@drawable/ic_akun"
+        android:title="Akun" />
+
+</menu>

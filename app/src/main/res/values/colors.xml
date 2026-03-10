@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Warna Utama SIAPIN -->
+    <color name="primary_blue">#2196F3</color>
+    <color name="primary_blue_dark">#1565C0</color>
+    <color name="primary_orange">#FF6B35</color>
+    <color name="primary_orange_dark">#E64A19</color>
+
+    <!-- Gradient Colors -->
+    <color name="gradient_blue_start">#1E88E5</color>
+    <color name="gradient_blue_end">#0D47A1</color>
+    <color name="gradient_orange_start">#FF7043</color>
+    <color name="gradient_orange_end">#BF360C</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#BDBDBD</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- Background -->
+    <color name="bg_white">#FFFFFF</color>
+    <color name="bg_light">#F5F5F5</color>
+    <color name="bg_card">#FFFFFF</color>
+
+    <!-- Input Field -->
+    <color name="input_border">#E0E0E0</color>
+    <color name="input_border_focus">#2196F3</color>
+
+    <!-- Bottom Nav -->
+    <color name="nav_selected">#2196F3</color>
+    <color name="nav_unselected">#9E9E9E</color>
+</resources>

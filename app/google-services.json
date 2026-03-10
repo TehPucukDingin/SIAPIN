@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "474641431868",
+    "project_id": "cobasiapin",
+    "storage_bucket": "cobasiapin.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474641431868:android:2febe3ca6b1f9c8ae9b239",
+        "android_client_info": {
+          "package_name": "com.android.cobasiapin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChA9LMu185lDqs8lbsJB9A55WP7ExIvk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
